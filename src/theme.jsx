@@ -23,8 +23,9 @@ export const theme = {
     xs: '12px',
     s: '14px',
     m: '16px',
-    l: '32px',
-    xl: '64px',
+    l: '24px',
+    xl: '32px',
+    xxl: '64px',
   },
   fontWeights: {
     normal: 400,
@@ -37,6 +38,7 @@ export const theme = {
   borders: {
     none: 'none',
     normal: '1px solid',
+    large: '3px solid',
   },
   radii: {
     none: '0',
@@ -47,12 +49,11 @@ export const theme = {
   },
   shadows: {
     normal: '4px 4px 8px 0px rgba(34, 60, 80, 0.2);',
-    dark: '6px 6px 10px 0px rgba(36, 40, 43, 0.2);'
+    dark: '6px 6px 10px 0px rgba(36, 40, 43, 0.2);',
   },
   sizes: {
     m: '24px',
     l: '64px',
-    xl: '132px'
-  }
-
+    xl: '132px',
+  },
 };
